@@ -1,0 +1,129 @@
+@font-face {
+  font-family: "Great Vibes";
+  src: url("../fonts/GreatVibes-Regular.woff2") format("woff2"), url("../fonts/GreatVibes-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap; }
+@media (max-width: 1050px) {
+  .card {
+    display: flex;
+    flex-direction: column; } }
+h1 {
+  font-weight: normal; }
+
+.tab-content {
+  display: none; }
+
+.tab-content.active {
+  display: grid; }
+
+body {
+  font-family: "Great Vibes";
+  margin: 0;
+  padding: 0; }
+  body h1 a {
+    color: black;
+    text-decoration: none;
+    margin-left: 10px; }
+  body h1 a:hover {
+    color: #FF43A4; }
+  body .content {
+    margin: 5%; }
+    body .content .tabs {
+      margin-bottom: 10px; }
+      body .content .tabs #tab1 {
+        appearance: none;
+        -webkit-appearance: none;
+        border: none;
+        background: none;
+        padding: 0;
+        margin: 0;
+        font: inherit;
+        color: inherit;
+        background-color: white;
+        border: 3px solid #FF43A4;
+        cursor: pointer;
+        font-size: 30px;
+        padding: 10px; }
+      body .content .tabs #tab2 {
+        appearance: none;
+        -webkit-appearance: none;
+        border: none;
+        background: none;
+        padding: 0;
+        margin: 0;
+        font: inherit;
+        color: inherit;
+        background-color: white;
+        border: 3px solid #44944A;
+        cursor: pointer;
+        font-size: 30px;
+        padding: 10px; }
+    body .content #safe {
+      border: 3px solid #FF43A4; }
+      body .content #safe .cards {
+        margin: 3%; }
+        body .content #safe .cards p {
+          font-size: 25px; }
+        body .content #safe .cards .card {
+          border: 3px solid #FF43A4;
+          display: flex;
+          align-items: center;
+          font-family: "Times New Roman", Times, serif; }
+          body .content #safe .cards .card div {
+            display: flex;
+            flex-direction: column;
+            width: 20%; }
+            body .content #safe .cards .card div p {
+              margin: 0;
+              padding: 0;
+              margin: 5px 0px 0px 5px; }
+            body .content #safe .cards .card div .img {
+              max-width: 150px;
+              display: flex;
+              align-items: center;
+              padding: 10px;
+              width: 100%; }
+              body .content #safe .cards .card div .img img {
+                width: 100%;
+                height: auto;
+                border: 3px solid #FF43A4; }
+          body .content #safe .cards .card p {
+            width: 80%;
+            font-size: clamp(20px, 3vw, 16px);
+            line-height: 1.5; }
+    body .content #danger {
+      border: 3px solid #44944A; }
+      body .content #danger .cards {
+        margin: 3%; }
+        body .content #danger .cards p {
+          font-size: 25px; }
+        body .content #danger .cards .card {
+          border: 3px solid #44944A;
+          display: flex;
+          align-items: center;
+          font-family: "Times New Roman", Times, serif; }
+          body .content #danger .cards .card div {
+            display: flex;
+            flex-direction: column;
+            width: 20%; }
+            body .content #danger .cards .card div p {
+              margin: 0;
+              padding: 0;
+              margin: 5px 0px 0px 5px; }
+            body .content #danger .cards .card div .img {
+              max-width: 150px;
+              display: flex;
+              align-items: center;
+              padding: 10px;
+              width: 100%; }
+              body .content #danger .cards .card div .img img {
+                width: 100%;
+                height: auto;
+                border: 3px solid #44944A; }
+          body .content #danger .cards .card p {
+            width: 80%;
+            font-size: clamp(20px, 3vw, 16px);
+            line-height: 1.5; }
+
+/*# sourceMappingURL=page1.css.map */

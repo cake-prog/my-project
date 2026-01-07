@@ -1,0 +1,52 @@
+@font-face {
+  font-family: "Great Vibes";
+  src: url("../fonts/GreatVibes-Regular.woff2") format("woff2"), url("../fonts/GreatVibes-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap; }
+@media (max-width: 1200px) {
+  .content {
+    flex-direction: column; }
+    .content img {
+      display: block;
+      margin: 0 auto; }
+    .content p {
+      align-self: center; } }
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Great Vibes"; }
+  body .header ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly; }
+    body .header ul li {
+      flex-direction: row; }
+      body .header ul li a {
+        text-decoration: none;
+        color: black;
+        font-size: 30px; }
+      body .header ul li a:hover {
+        color: #FF43A4; }
+  body .main_body h1 {
+    font-size: 40px;
+    text-align: center;
+    margin-top: 3%;
+    color: #FF43A4; }
+  body .main_body .content {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    max-width: 100%; }
+    body .main_body .content img {
+      max-width: 40%;
+      height: auto;
+      flex-shrink: 0; }
+    body .main_body .content p {
+      text-align: center;
+      padding: 5%;
+      max-width: 60%;
+      font-size: clamp(20px, 3vw, 30px);
+      line-height: 1.5; }
+
+/*# sourceMappingURL=index.css.map */
